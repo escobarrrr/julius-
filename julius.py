@@ -4,8 +4,16 @@ import requests
 import requests.exceptions
 import urllib.parse
 from collections import deque
-import re
-print (" follow me on github @mastersushi")
+import re 
+print (" follow me on github @mastersushi") 
+print ("""
+     __      .__  .__              
+    |__|__ __|  | |__|__ __  ______
+    |  |  |  \  | |  |  |  \/  ___/
+    |  |  |  /  |_|  |  |  /\___ \ 
+/\__|  |____/|____/__|____//____  >
+\______|                        \/ 
+""")
 user_url = str(input("[+] enter target url to scan: " ))
 urls = deque([user_url])
 scrapped_urls = set()
